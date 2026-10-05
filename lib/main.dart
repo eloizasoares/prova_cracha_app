@@ -55,11 +55,11 @@ class MeuCrachaApp extends StatelessWidget {
                 // Adicione a imagem via NetworkImage no CircleAvatar.
                 // ==========================================================
                 const CircleAvatar(
-                  radius: 50,
-                  backgroundImage: NetworkImage(
-                    'https://github.com/monalisa-octocat.png', // Cola o link aqui
-                  ),
-                ),
+  		radius: 50,
+  		backgroundImage: NetworkImage(
+    		'https://xsgames.co/randomusers/avatar.php?g=female',
+  		),
+		),
 
                 const SizedBox(height: 15),
 
