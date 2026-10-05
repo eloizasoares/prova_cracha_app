@@ -57,7 +57,7 @@ class MeuCrachaApp extends StatelessWidget {
                 const CircleAvatar(
                   radius: 50,
                   backgroundImage: NetworkImage(
-                    'https://i.ibb.co/seu-link-direto/minhafoto.jpg', // Cola o link aqui
+                    'https://github.com/monalisa-octocat.png', // Cola o link aqui
                   ),
                 ),
 
