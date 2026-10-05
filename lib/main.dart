@@ -54,13 +54,12 @@ class MeuCrachaApp extends StatelessWidget {
                 // DESAFIO 1 (3 PONTOS) - FOTO DE PERFIL
                 // Adicione a imagem via NetworkImage no CircleAvatar.
                 // ==========================================================
-                const CircleAvatar(
+                CircleAvatar(
   		radius: 50,
-  		backgroundImage: NetworkImage(
-    		'https://xsgames.co/randomusers/avatar.php?g=female',
-  		),
-		),
-
+ 		backgroundImage: NetworkImage(
+   	 'https://randomuser.me/api/portraits/women/44.jpg',
+  ),
+),
                 const SizedBox(height: 15),
 
                 const Text(
